@@ -1,0 +1,10 @@
+<h2>Create Todo</h2>
+
+<form action="" method="post" [formGroup]="CreateTodo">
+  <label>
+    Todo:
+    <input type="text" formControlName="todo" />
+  </label>
+
+  <button (click)="createTodo()">Create Todo</button>
+</form>
